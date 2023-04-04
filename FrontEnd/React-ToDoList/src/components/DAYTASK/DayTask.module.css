@@ -26,3 +26,23 @@
     position: relative;
     cursor: pointer;
 }
+
+.dayTask_btn{
+    background-color: #e74c3c;
+    height: 28px;
+    width: 28px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: -14px;
+    right: -14px;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .5s ease;
+    
+}
+
+.dayTask_btn:hover{
+    opacity: 1;
+}

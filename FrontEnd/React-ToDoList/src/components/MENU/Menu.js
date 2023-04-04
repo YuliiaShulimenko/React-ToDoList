@@ -15,7 +15,6 @@ const Menu = ({ addTask }) => {
     setDay("");
     setImportance("");
     setDescription("");
-    console.log(day);
   };
 
 

@@ -12,14 +12,21 @@ const App = () => {
   const addTask = (day, importance, description) => {
     const newTask = { day, importance, description };
     setTasks([...tasks, newTask]);
-
-
   };
+
+  //Удаление задачи(не работает)
+
+  const removeTask = (id) => {
+   const tasks = tasks.filter(elem => elem.id !== id)
+        setTasks(tasks)
+        
+  };
+  
 
   return (
     <div className = {s.app}>
       <Menu addTask={addTask} />
-      <TaskList tasks={tasks} />
+      <TaskList tasks={tasks} removeTask={removeTask}/>
     </div>
   );  
 };
