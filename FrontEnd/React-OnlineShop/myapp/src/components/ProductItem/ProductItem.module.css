@@ -1,0 +1,23 @@
+.item {
+  padding: 30px;
+  border: 1px solid grey;
+  height: 160px;
+  width: 300px;
+  flex-direction: column;
+  
+  display: flex;
+  justify-content: space-between;
+}
+.item h2{
+  font-size:20px;
+  
+color:black;
+background-color: pink;
+font-style: normal; 
+text-transform: uppercase
+}
+
+  .item:hover{
+    background-color:pink;
+    opacity:0.7
+  }

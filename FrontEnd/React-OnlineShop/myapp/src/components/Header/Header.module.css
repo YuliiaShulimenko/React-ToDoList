@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  max-width: 100%;
+  margin:0 auto;
+  height: 120px;
+  background-color: pink;
+  gap: 30px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 25px;
+  cursor: pointer;
+}
