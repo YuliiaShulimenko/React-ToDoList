@@ -1,0 +1,55 @@
+.image {
+  width: 246px;
+  height: 180px;
+padding-bottom: 15px;
+}
+
+.works_discription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.works_main {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  height: 180px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 46px;
+  padding-bottom: 15px;
+}
+
+.works_discription h2 {
+  width: 305px;
+  font-size: 30px;
+}
+
+.h4_works {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  color: #8695a4;
+  gap: 20px;
+}
+
+.works_discription p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #21243d;
+
+}
+.year_works{
+  font-size: 18px;
+  font-weight: 900;
+  background-color: #142850;
+  color: #fff;
+  border-radius: 16px;
+  padding: 0 10px;
+  line-height: 29px;
+color: #FFFFFF;
+
+}
+

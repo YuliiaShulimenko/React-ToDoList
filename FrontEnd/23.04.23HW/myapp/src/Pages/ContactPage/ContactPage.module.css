@@ -1,0 +1,30 @@
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(218, 213, 206);
+}
+
+.title{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.button{
+    border-radius: 15px;
+    background-color: rgba(22, 157, 157, 0.473); 
+   padding: 20px;
+   margin-bottom: 30px;
+   font-size: 30px;
+}
+
+.form input,
+.form textarea{
+   font-size: 30px;
+border-radius: 10px;
+}
+

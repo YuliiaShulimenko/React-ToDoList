@@ -1,0 +1,17 @@
+.title_post{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.container {
+    display: flex;
+  }
+
+  .title_post h3{
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+
+
+ 

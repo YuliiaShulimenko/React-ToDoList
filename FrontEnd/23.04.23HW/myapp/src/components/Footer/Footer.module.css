@@ -1,0 +1,15 @@
+.icons{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+
+.footer_p{
+    font-size: 14px;
+}
+
+.footer_title {
+    text-align: center;
+    padding: 40px;
+  }

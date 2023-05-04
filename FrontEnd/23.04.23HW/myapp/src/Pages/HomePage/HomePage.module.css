@@ -1,0 +1,75 @@
+.div_home{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.div_home_banner{
+    flex-direction: row;
+    display: flex;
+    gap: 115px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.div_home_left h2{
+  
+width: 506px;
+height: 105px;
+left: 148px;
+
+margin-bottom: 40px;
+
+
+font-size: 44px;
+line-height: 60px;
+color: #21243D;
+}
+
+.div_home_left p{
+width: 497px;
+height: 66px;
+left: 148px;
+
+
+margin-bottom: 38px;
+
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+}
+
+.div_home_left button{
+width: 208px;
+height: 47px;
+left: 148px;
+
+background: #FF6464;
+border-radius: 2px;
+border: none;
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+color: #FFFFFF;
+margin-bottom:71px;
+}
+
+.posts{
+    height: 396px;
+background: #EDF7FA;
+}
+
+@media (max-width: 700px) {
+
+	.div_home_banner {
+        
+		flex-direction: column;
+		align-items: center;
+        justify-content: center;
+		gap: 35px;
+	}
+
+}
